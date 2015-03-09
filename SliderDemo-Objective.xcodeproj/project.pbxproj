@@ -14,6 +14,17 @@
 		5F24162B1A3E82A500DDE242 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F24162A1A3E82A500DDE242 /* Images.xcassets */; };
 		5F24162E1A3E82A500DDE242 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F24162C1A3E82A500DDE242 /* LaunchScreen.xib */; };
 		5F24163A1A3E82A500DDE242 /* SliderDemo_ObjectiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416391A3E82A500DDE242 /* SliderDemo_ObjectiveTests.m */; };
+		5F24164D1A3E860A00DDE242 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416451A3E860A00DDE242 /* MMDrawerBarButtonItem.m */; };
+		5F24164E1A3E860A00DDE242 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416481A3E860A00DDE242 /* MMDrawerController.m */; };
+		5F24164F1A3E860A00DDE242 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F24164A1A3E860A00DDE242 /* MMDrawerVisualState.m */; };
+		5F2416501A3E860A00DDE242 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F24164C1A3E860A00DDE242 /* UIViewController+MMDrawerController.m */; };
+		5F2416531A3E86BE00DDE242 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416521A3E86BE00DDE242 /* LeftViewController.m */; };
+		5F2416561A3E86CA00DDE242 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F2416551A3E86CA00DDE242 /* RightViewController.m */; };
+		5FB25EDE1A5F69BE0054021B /* Left.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB25EDD1A5F69BE0054021B /* Left.storyboard */; };
+		5FB25EE01A5F69C90054021B /* Right.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FB25EDF1A5F69C90054021B /* Right.storyboard */; };
+		5FB25EE61A5F70BB0054021B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB25EE51A5F70BB0054021B /* SecondViewController.m */; };
+		5FB25EE91A5F71820054021B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FB25EE81A5F71820054021B /* ThirdViewController.m */; };
+		5FC9614C1A42D6170067AB64 /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FC9614B1A42D6170067AB64 /* Images-2.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +51,26 @@
 		5F2416331A3E82A500DDE242 /* SliderDemo-ObjectiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SliderDemo-ObjectiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F2416381A3E82A500DDE242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F2416391A3E82A500DDE242 /* SliderDemo_ObjectiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderDemo_ObjectiveTests.m; sourceTree = "<group>"; };
+		5F2416441A3E860A00DDE242 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		5F2416451A3E860A00DDE242 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		5F2416461A3E860A00DDE242 /* MMDrawerController+Subclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MMDrawerController+Subclass.h"; sourceTree = "<group>"; };
+		5F2416471A3E860A00DDE242 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		5F2416481A3E860A00DDE242 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		5F2416491A3E860A00DDE242 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		5F24164A1A3E860A00DDE242 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		5F24164B1A3E860A00DDE242 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		5F24164C1A3E860A00DDE242 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		5F2416511A3E86BE00DDE242 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		5F2416521A3E86BE00DDE242 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		5F2416541A3E86CA00DDE242 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		5F2416551A3E86CA00DDE242 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		5FB25EDD1A5F69BE0054021B /* Left.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Left.storyboard; sourceTree = "<group>"; };
+		5FB25EDF1A5F69C90054021B /* Right.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Right.storyboard; sourceTree = "<group>"; };
+		5FB25EE41A5F70BB0054021B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5FB25EE51A5F70BB0054021B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5FB25EE71A5F71820054021B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5FB25EE81A5F71820054021B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5FC9614B1A42D6170067AB64 /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +94,7 @@
 		5F2416111A3E82A500DDE242 = {
 			isa = PBXGroup;
 			children = (
+				5F2416431A3E860A00DDE242 /* MMDrawerController */,
 				5F24161C1A3E82A500DDE242 /* SliderDemo-Objective */,
 				5F2416361A3E82A500DDE242 /* SliderDemo-ObjectiveTests */,
 				5F24161B1A3E82A500DDE242 /* Products */,
@@ -81,13 +113,17 @@
 		5F24161C1A3E82A500DDE242 /* SliderDemo-Objective */ = {
 			isa = PBXGroup;
 			children = (
+				5FB25EE31A5F70670054021B /* Center */,
+				5FB25EE21A5F705B0054021B /* Right */,
+				5FB25EE11A5F704E0054021B /* Left */,
 				5F2416211A3E82A500DDE242 /* AppDelegate.h */,
 				5F2416221A3E82A500DDE242 /* AppDelegate.m */,
-				5F2416241A3E82A500DDE242 /* ViewController.h */,
-				5F2416251A3E82A500DDE242 /* ViewController.m */,
 				5F2416271A3E82A500DDE242 /* Main.storyboard */,
+				5FB25EDD1A5F69BE0054021B /* Left.storyboard */,
+				5FB25EDF1A5F69C90054021B /* Right.storyboard */,
 				5F24162A1A3E82A500DDE242 /* Images.xcassets */,
 				5F24162C1A3E82A500DDE242 /* LaunchScreen.xib */,
+				5FC9614B1A42D6170067AB64 /* Images-2.xcassets */,
 				5F24161D1A3E82A500DDE242 /* Supporting Files */,
 			);
 			path = "SliderDemo-Objective";
@@ -117,6 +153,53 @@
 				5F2416381A3E82A500DDE242 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5F2416431A3E860A00DDE242 /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				5F2416441A3E860A00DDE242 /* MMDrawerBarButtonItem.h */,
+				5F2416451A3E860A00DDE242 /* MMDrawerBarButtonItem.m */,
+				5F2416461A3E860A00DDE242 /* MMDrawerController+Subclass.h */,
+				5F2416471A3E860A00DDE242 /* MMDrawerController.h */,
+				5F2416481A3E860A00DDE242 /* MMDrawerController.m */,
+				5F2416491A3E860A00DDE242 /* MMDrawerVisualState.h */,
+				5F24164A1A3E860A00DDE242 /* MMDrawerVisualState.m */,
+				5F24164B1A3E860A00DDE242 /* UIViewController+MMDrawerController.h */,
+				5F24164C1A3E860A00DDE242 /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		5FB25EE11A5F704E0054021B /* Left */ = {
+			isa = PBXGroup;
+			children = (
+				5F2416511A3E86BE00DDE242 /* LeftViewController.h */,
+				5F2416521A3E86BE00DDE242 /* LeftViewController.m */,
+			);
+			name = Left;
+			sourceTree = "<group>";
+		};
+		5FB25EE21A5F705B0054021B /* Right */ = {
+			isa = PBXGroup;
+			children = (
+				5F2416541A3E86CA00DDE242 /* RightViewController.h */,
+				5F2416551A3E86CA00DDE242 /* RightViewController.m */,
+			);
+			name = Right;
+			sourceTree = "<group>";
+		};
+		5FB25EE31A5F70670054021B /* Center */ = {
+			isa = PBXGroup;
+			children = (
+				5F2416241A3E82A500DDE242 /* ViewController.h */,
+				5F2416251A3E82A500DDE242 /* ViewController.m */,
+				5FB25EE41A5F70BB0054021B /* SecondViewController.h */,
+				5FB25EE51A5F70BB0054021B /* SecondViewController.m */,
+				5FB25EE71A5F71820054021B /* ThirdViewController.h */,
+				5FB25EE81A5F71820054021B /* ThirdViewController.m */,
+			);
+			name = Center;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +283,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F2416291A3E82A500DDE242 /* Main.storyboard in Resources */,
+				5FB25EE01A5F69C90054021B /* Right.storyboard in Resources */,
 				5F24162E1A3E82A500DDE242 /* LaunchScreen.xib in Resources */,
 				5F24162B1A3E82A500DDE242 /* Images.xcassets in Resources */,
+				5FB25EDE1A5F69BE0054021B /* Left.storyboard in Resources */,
+				5FC9614C1A42D6170067AB64 /* Images-2.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +305,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB25EE61A5F70BB0054021B /* SecondViewController.m in Sources */,
+				5F24164F1A3E860A00DDE242 /* MMDrawerVisualState.m in Sources */,
+				5F2416531A3E86BE00DDE242 /* LeftViewController.m in Sources */,
 				5F2416261A3E82A500DDE242 /* ViewController.m in Sources */,
+				5F2416501A3E860A00DDE242 /* UIViewController+MMDrawerController.m in Sources */,
+				5FB25EE91A5F71820054021B /* ThirdViewController.m in Sources */,
+				5F24164E1A3E860A00DDE242 /* MMDrawerController.m in Sources */,
+				5F2416561A3E86CA00DDE242 /* RightViewController.m in Sources */,
+				5F24164D1A3E860A00DDE242 /* MMDrawerBarButtonItem.m in Sources */,
 				5F2416231A3E82A500DDE242 /* AppDelegate.m in Sources */,
 				5F2416201A3E82A500DDE242 /* main.m in Sources */,
 			);
@@ -343,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "SliderDemo-Objective/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "SliderDemo-Objective/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +510,7 @@
 				5F24163F1A3E82A500DDE242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5F2416401A3E82A500DDE242 /* Build configuration list for PBXNativeTarget "SliderDemo-ObjectiveTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +519,7 @@
 				5F2416421A3E82A500DDE242 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

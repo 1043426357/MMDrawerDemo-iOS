@@ -2,20 +2,70 @@
 //  AppDelegate.m
 //  SliderDemo-Objective
 //
-//  Created by 余新闻 on 14-12-15.
+//  Created by 新闻 on 14-12-15.
 //  Copyright (c) 2014年 Adways. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "MMDrawerController.h"
+
+#import "ViewController.h"
+#import "LeftViewController.h"
+#import "RightViewController.h"
 
 @interface AppDelegate ()
-
+@property (nonatomic,strong) MMDrawerController * drawerController;
 @end
 
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+//    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+//    self.window!.backgroundColor = UIColor.whiteColor()
+//    self.window!.makeKeyAndVisible()
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+ //   UIViewController * leftSideDrawerViewController = [[LeftViewController alloc] init];
+    
+  //  UIViewController * centerViewController = [[ViewController alloc] init];
+    
+  //  UIViewController * rightSideDrawerViewController = [[RightViewController alloc] init];
+    
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    UITabBarController *centerNavController =(UITabBarController *)storyboard.instantiateInitialViewController;
+
+
+//   UINavigationController * rightSideNavController = [[UINavigationController alloc] initWithRootViewController:rightSideDrawerViewController];
+//       UINavigationController * leftSideNavController = [[UINavigationController alloc] initWithRootViewController:leftSideDrawerViewController];
+    
+    UIStoryboard *leftBoard = [UIStoryboard storyboardWithName:@"Left" bundle:nil];
+    UINavigationController *leftSideNavController = [leftBoard instantiateViewControllerWithIdentifier:@"LeftMain"];
+    
+    UIStoryboard *rightBoard = [UIStoryboard storyboardWithName:@"Right" bundle:nil];
+    UINavigationController *rightSideNavController = [rightBoard instantiateViewControllerWithIdentifier:@"rightMain"];;
+    
+    self.drawerController = [[MMDrawerController alloc]
+                             initWithCenterViewController:centerNavController
+                             leftDrawerViewController:leftSideNavController
+                             rightDrawerViewController:rightSideNavController];
+    
+    [self.drawerController setShowsShadow:NO];
+    self.drawerController.maximumLeftDrawerWidth = 200;
+    self.drawerController.maximumRightDrawerWidth = 200;
+    
+    [self.drawerController setOpenDrawerGestureModeMask:MMOpenDrawerGestureModeAll];
+    [self.drawerController setCloseDrawerGestureModeMask:MMCloseDrawerGestureModeAll];
+    self.window.rootViewController = self.drawerController;
+
+
+
+
+    
     // Override point for customization after application launch.
     return YES;
 }
